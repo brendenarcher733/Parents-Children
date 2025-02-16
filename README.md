@@ -9,7 +9,8 @@ This web application allows users to predict which Formula 1 team will win the n
 
 Project Structure
 
-/f1-predictions
+f1-predictions
+ 
   ├── index.html        # Main HTML file
   ├── styles.css        # CSS for styling
   ├── script.js         # JavaScript for logic
