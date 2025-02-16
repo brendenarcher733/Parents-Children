@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formula 1 Predictions</h1>
+
+    <div class="container">
+        <!-- Team Prediction -->
+        <div class="child" id="f1Container">
+            <h2>Which Formula 1 team will win the next race?</h2>
+            <img id="f1Image" src="images/ferrarisymbol.jpeg" alt="Ferrari" width="200">
+            <p id="f1Text">Ferrari</p>
+            <button onclick="changeF1Team()">Change Prediction</button>
+        </div>
+
+        <!-- Driver Prediction -->
+        <div class="child" id="driverContainer">
+            <h2>Who is the best driver?</h2>
+            <img id="driverImage" src="images/CharlesLeclerc.jpeg" alt="Charles Leclerc" width="200">
+            <p id="driverText">Charles Leclerc</p>
+            <button onclick="changeDriver()">Change Prediction</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
