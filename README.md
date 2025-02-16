@@ -29,8 +29,11 @@ JavaScript – Logic for dynamic image and text updates
 Troubleshooting:
 
 Common Issues & Fixes
+
 Images not showing?
+
 Ensure the filenames match exactly (LewisHamilton.jpeg ≠ lewishamilton.jpeg).
+
 If on Replit, right-click an uploaded image and select "Copy Image Address", then replace the src in script.js with the full URL.
 
 
