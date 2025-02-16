@@ -1,70 +1,31 @@
 Formula 1 Predictions Web App
 
 Description
+This web application allows users to predict which Formula 1 team will win the next race (Ferrari or Mercedes) and who is the best driver (Charles Leclerc or Lewis Hamilton). Users can interact with the app by clicking buttons to change predictions, updating images and text dynamically.
 
-This is a simple interactive web application that allows users to predict:
 
-Which Formula 1 team will win the next race – Ferrari or Mercedes.
 
-Who is the best driver – Charles Leclerc or Lewis Hamilton.
+Project Structure
+/f1-predictions
+  ├── index.html        # Main HTML file
+  ├── styles.css        # CSS for styling
+  ├── script.js         # JavaScript for logic
+  ├── images/           # Folder containing F1 team and driver images
+      ├── LewisHamilton.jpeg
+      ├── CharlesLeclerc.jpeg
+      ├── Mercedessymbol.jpeg
+      ├── ferrarisymbol.jpeg
 
-The application dynamically changes images and text when the user clicks the "Change Prediction" buttons. It is built using HTML, CSS, and JavaScript and can be run directly in a browser or hosted online.
+Technologies Used:
+HTML – Structure of the web page
+CSS – Styling for the layout and design
+JavaScript – Logic for dynamic image and text updates
 
-Features
+Troubleshooting:
 
-🏎 Formula 1 Team Prediction: Users can switch between Ferrari and Mercedes.
+Common Issues & Fixes
+Images not showing?
+Ensure the filenames match exactly (LewisHamilton.jpeg ≠ lewishamilton.jpeg).
+If on Replit, right-click an uploaded image and select "Copy Image Address", then replace the src in script.js with the full URL.
 
-🏁 Driver Prediction: Users can switch between Charles Leclerc and Lewis Hamilton.
 
-🎨 Styled UI: Clean, responsive design with Ferrari and Mercedes-themed colors.
-
-⚡ Instant Updates: Image and text changes happen dynamically via JavaScript.
-
-🌍 Runs on Replit or Locally: Easy to set up and use.
-
-How to Use the App
-
-Click the "Change Prediction" button under the F1 Team section to switch between Ferrari and Mercedes.
-
-Click the "Change Prediction" button under the Best Driver section to switch between Charles Leclerc and Lewis Hamilton.
-
-Watch the images and text change dynamically to reflect the new prediction.
-
-Installation & Setup
-
-✅ Running on Replit
-
-Fork this repository on Replit.
-
-Upload the required images inside an images/ folder:
-
-LewisHamilton.jpeg
-
-CharlesLeclerc.jpeg
-
-Mercedessymbol.jpeg
-
-ferrarisymbol.jpeg
-
-Run the project by clicking the "Run" button.
-
-Open the webview or launch in a new tab to use the app.
-
-✅ Running Locally
-
-Clone the repository:
-
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
-
-Ensure the following images exist inside an images/ folder:
-
-LewisHamilton.jpeg
-
-CharlesLeclerc.jpeg
-
-Mercedessymbol.jpeg
-
-ferrarisymbol.jpeg
-
-Open index.html in your browser (Chrome, Firefox, Edge, etc.).
