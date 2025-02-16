@@ -18,6 +18,7 @@ Project Structure
       ├── ferrarisymbol.jpeg
 
 Technologies Used:
+
 HTML – Structure of the web page
 CSS – Styling for the layout and design
 JavaScript – Logic for dynamic image and text updates
