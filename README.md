@@ -1,6 +1,8 @@
 Formula 1 Predictions Web App
 
-Description
+Description:
+
+
 This web application allows users to predict which Formula 1 team will win the next race (Ferrari or Mercedes) and who is the best driver (Charles Leclerc or Lewis Hamilton). Users can interact with the app by clicking buttons to change predictions, updating images and text dynamically.
 
 
